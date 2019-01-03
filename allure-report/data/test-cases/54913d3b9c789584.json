@@ -1,0 +1,121 @@
+{
+  "uid" : "54913d3b9c789584",
+  "name" : "I click the search button",
+  "fullName" : "Performing a Yahoo Search Performing a search operation.I click the search button",
+  "historyId" : "1f5983e34cb34dd8f1c5001dda5979c6",
+  "time" : {
+    "start" : 1546488600964,
+    "stop" : 1546488601735,
+    "duration" : 771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#uh-search-button\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#uh-search-button\").\n                    at click() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#uh-search-button\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#uh-search-button\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87afd43790cf42a6a12dc5c5052ad10c/element",
+      "time" : {
+        "start" : 1546488600965,
+        "stop" : 1546488600984,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d83b16cc145b21e3",
+        "name" : "Request",
+        "source" : "d83b16cc145b21e3.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "32e5d6b08ec2e610",
+        "name" : "Response",
+        "source" : "32e5d6b08ec2e610.json",
+        "type" : "application/json",
+        "size" : 603
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/87afd43790cf42a6a12dc5c5052ad10c/screenshot",
+      "time" : {
+        "start" : 1546488600988,
+        "stop" : 1546488601735,
+        "duration" : 747
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#uh-search-button\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f75d388f43d740db",
+        "name" : "Screenshot",
+        "source" : "f75d388f43d740db.png",
+        "type" : "image/png",
+        "size" : 1174447
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click the search button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54913d3b9c789584.json",
+  "parameterValues" : [ "chrome" ]
+}

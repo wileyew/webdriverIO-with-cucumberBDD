@@ -1,0 +1,121 @@
+{
+  "uid" : "105728dda62ec04c",
+  "name" : "I click the search button",
+  "fullName" : "Performing a Yahoo Search Performing a search operation.I click the search button",
+  "historyId" : "1f5983e34cb34dd8f1c5001dda5979c6",
+  "time" : {
+    "start" : 1546447794305,
+    "stop" : 1546447796744,
+    "duration" : 2439
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[@class=\"mag-glass\"]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"mag-glass\"]\").\n                    at click() - index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//div[@class=\"mag-glass\"]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"mag-glass\"]\").\n                    at click() - index.js:316:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element",
+      "time" : {
+        "start" : 1546447794306,
+        "stop" : 1546447794328,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "809d46d86594f329",
+        "name" : "Request",
+        "source" : "809d46d86594f329.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "3b14e6f2344c6524",
+        "name" : "Response",
+        "source" : "3b14e6f2344c6524.json",
+        "type" : "application/json",
+        "size" : 621
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/screenshot",
+      "time" : {
+        "start" : 1546447794336,
+        "stop" : 1546447796744,
+        "duration" : 2408
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//div[@class=\"mag-glass\"]\").\n                    at click() - index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4511dc26e303af8a",
+        "name" : "Screenshot",
+        "source" : "4511dc26e303af8a.png",
+        "type" : "image/png",
+        "size" : 2764774
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click the search button"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "105728dda62ec04c.json",
+  "parameterValues" : [ "chrome" ]
+}

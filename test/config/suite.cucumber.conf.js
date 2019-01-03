@@ -34,7 +34,20 @@ exports.config = {
               // platform: 'Windows 10',
               // version: '50.0',
               maxInstances: '5',
-          },
+              chromeOptions: {
+                      // run in headless mode
+                      args: ['--headless'],
+                      //binary:   '/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary'
+                      binary:   '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'  //for OS X
+                      //binary:   '/Program Files (x86)/Google/Chrome/Application/chrome.exe'     //for windows7
+                    },
+                    platform: '',
+                    version: '',
+                    maxInstances: '5',
+                    // specs: [
+                    //     './test/specs/*.js'
+                    // ],
+                },
           //
           // {
           //     browserName: 'firefox',

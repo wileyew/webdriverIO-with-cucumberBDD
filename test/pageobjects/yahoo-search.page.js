@@ -7,7 +7,7 @@ class YahooPage extends Page  {
   */
 
   get searchInput()   { return browser.element('#yschsp'); }
-  get searchButton()  { return browser.element('//div[@class="mag-glass"]'); }
+  get searchButton()  { return browser.element('span.ico-syc.mag-glass'); }
   get resultsList()   { return browser.element('#results'); }
 
   /**

@@ -1,0 +1,95 @@
+{
+  "uid" : "1f56d7a9e8b4aede",
+  "name" : "I am on the phptravels page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I am on the phptravels page",
+  "historyId" : "db77a97b32abf83bd8d1653264bb2b23",
+  "time" : {
+    "start" : 1546448052158,
+    "stop" : 1546448055979,
+    "duration" : 3821
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/827b5bde04055f58cc077c262051b868/url",
+      "time" : {
+        "start" : 1546448052164,
+        "stop" : 1546448054966,
+        "duration" : 2802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10efc6b13cfb4d3c",
+        "name" : "Request",
+        "source" : "10efc6b13cfb4d3c.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "340fe61e2affd0a6",
+        "name" : "Response",
+        "source" : "340fe61e2affd0a6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the phptravels page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f56d7a9e8b4aede.json",
+  "parameterValues" : [ "chrome" ]
+}

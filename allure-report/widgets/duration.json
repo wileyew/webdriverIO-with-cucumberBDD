@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ae4f126dd0f74914",
+  "name" : "I enter \"Selenium Webdriver\" into the search box",
+  "time" : {
+    "start" : 1546489769602,
+    "stop" : 1546489769778,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aaa34f25eecd91c0",
+  "name" : "I click the search button",
+  "time" : {
+    "start" : 1546489769781,
+    "stop" : 1546489770660,
+    "duration" : 879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6aff261ae09b94",
+  "name" : "I click the search button",
+  "time" : {
+    "start" : 1546489766169,
+    "stop" : 1546489767412,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de292d72d0f4ed39",
+  "name" : "I should see a list of search results",
+  "time" : {
+    "start" : 1546489767412,
+    "stop" : 1546489767631,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70b55c80b82ee3f5",
+  "name" : "I am on the search page",
+  "time" : {
+    "start" : 1546489767655,
+    "stop" : 1546489769601,
+    "duration" : 1946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37223a3f677f9b79",
+  "name" : "I am on the phptravels page",
+  "time" : {
+    "start" : 1546489763725,
+    "stop" : 1546489767203,
+    "duration" : 3478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "545d0c6b48326010",
+  "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+  "time" : {
+    "start" : 1546489770034,
+    "stop" : 1546489770081,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db867bd33bce130d",
+  "name" : "I am on the search page",
+  "time" : {
+    "start" : 1546489763726,
+    "stop" : 1546489765761,
+    "duration" : 2035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42cf333239db4290",
+  "name" : "I should see a list of search results",
+  "time" : {
+    "start" : 1546489770661,
+    "stop" : 1546489770808,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28e075478a62799b",
+  "name" : "I enter \"Selenium Webdriver\" into the search box",
+  "time" : {
+    "start" : 1546489765766,
+    "stop" : 1546489766167,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e78783a30f5a3a8d",
+  "name" : "I login with username and password \"user@phptravels.com\" \"demouser\" into the text box",
+  "time" : {
+    "start" : 1546489767209,
+    "stop" : 1546489770033,
+    "duration" : 2824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

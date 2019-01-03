@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"browserName\":\"chrome\",\"maxInstances\":\"5\",\"chromeOptions\":{\"args\":[\"--headless\"],\"binary\":\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\"},\"platform\":\"\",\"version\":\"\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/evanwiley/Development/webdriverIO-with-cucumberBDD/test/features/ta-login.feature\"]" ],
+  "name" : "spec files"
+} ]

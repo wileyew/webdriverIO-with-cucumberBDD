@@ -59,7 +59,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-cucumberjs": "^0.8.7",
     "node-uuid": "^1.4.7",
-    "selenium-standalone": "^6.8.0",
+    "selenium-standalone": "^6.15.4",
     "wdio-appium-service": "^0.2.3",
     "wdio-browserstack-service": "^0.1.4",
     "wdio-cucumber-framework": "^1.0.2",
@@ -70,7 +70,14 @@
   },
   "babel": {
     "presets": [
-        ["env", { "targets": {"node": "current"}}]
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
       ]
+    ]
   }
 }

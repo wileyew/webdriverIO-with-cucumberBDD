@@ -1,0 +1,149 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Performing a login Performing login operation with passing test data as data table",
+    "children" : [ {
+      "name" : "I am on the phptravels page",
+      "uid" : "37223a3f677f9b79",
+      "parentUid" : "a77511f8e0c04019c62f06b743690605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489763725,
+        "stop" : 1546489767203,
+        "duration" : 3478
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I login with username and password \"user@phptravels.com\" \"demouser\" into the text box",
+      "uid" : "e78783a30f5a3a8d",
+      "parentUid" : "a77511f8e0c04019c62f06b743690605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489767209,
+        "stop" : 1546489770033,
+        "duration" : 2824
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+      "uid" : "545d0c6b48326010",
+      "parentUid" : "a77511f8e0c04019c62f06b743690605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489770034,
+        "stop" : 1546489770081,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a77511f8e0c04019c62f06b743690605"
+  }, {
+    "name" : "Performing a Yahoo Search Performing a search operation",
+    "children" : [ {
+      "name" : "I am on the search page",
+      "uid" : "db867bd33bce130d",
+      "parentUid" : "f1c3dd7dcfd3e5d7c8ef7f6f29c5f8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489763726,
+        "stop" : 1546489765761,
+        "duration" : 2035
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I enter \"Selenium Webdriver\" into the search box",
+      "uid" : "28e075478a62799b",
+      "parentUid" : "f1c3dd7dcfd3e5d7c8ef7f6f29c5f8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489765766,
+        "stop" : 1546489766167,
+        "duration" : 401
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click the search button",
+      "uid" : "a6aff261ae09b94",
+      "parentUid" : "f1c3dd7dcfd3e5d7c8ef7f6f29c5f8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489766169,
+        "stop" : 1546489767412,
+        "duration" : 1243
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "de292d72d0f4ed39",
+      "parentUid" : "f1c3dd7dcfd3e5d7c8ef7f6f29c5f8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489767412,
+        "stop" : 1546489767631,
+        "duration" : 219
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f1c3dd7dcfd3e5d7c8ef7f6f29c5f8e2"
+  }, {
+    "name" : "Performing a Yahoo Search Performing a search operation with passing test data as data table",
+    "children" : [ {
+      "name" : "I am on the search page",
+      "uid" : "70b55c80b82ee3f5",
+      "parentUid" : "2021f12fa06ce153e393de9d597de8b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489767655,
+        "stop" : 1546489769601,
+        "duration" : 1946
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I enter \"Selenium Webdriver\" into the search box",
+      "uid" : "ae4f126dd0f74914",
+      "parentUid" : "2021f12fa06ce153e393de9d597de8b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489769602,
+        "stop" : 1546489769778,
+        "duration" : 176
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click the search button",
+      "uid" : "aaa34f25eecd91c0",
+      "parentUid" : "2021f12fa06ce153e393de9d597de8b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489769781,
+        "stop" : 1546489770660,
+        "duration" : 879
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "42cf333239db4290",
+      "parentUid" : "2021f12fa06ce153e393de9d597de8b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489770661,
+        "stop" : 1546489770808,
+        "duration" : 147
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2021f12fa06ce153e393de9d597de8b0"
+  } ]
+}

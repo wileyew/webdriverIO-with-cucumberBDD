@@ -1,0 +1,174 @@
+{
+  "uid" : "545d0c6b48326010",
+  "name" : "I should see the message \"Hi, Johny Smith\" on my account page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I should see the message \"Hi, Johny Smith\" on my account page",
+  "historyId" : "efa917493d2ce73a228773674bce039b",
+  "time" : {
+    "start" : 1546489770034,
+    "stop" : 1546489770081,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/37f983bb8dbbe1ac4c529c5d8af2bc6e/element",
+      "time" : {
+        "start" : 1546489770035,
+        "stop" : 1546489770054,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b12b3dd44d09d983",
+        "name" : "Request",
+        "source" : "b12b3dd44d09d983.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d8abe7375655fc8d",
+        "name" : "Response",
+        "source" : "d8abe7375655fc8d.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/37f983bb8dbbe1ac4c529c5d8af2bc6e/element/0.7706375274022774-1/text",
+      "time" : {
+        "start" : 1546489770057,
+        "stop" : 1546489770077,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e007d0f0b16d1df",
+        "name" : "Response",
+        "source" : "e007d0f0b16d1df.json",
+        "type" : "application/json",
+        "size" : 104
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the message \"Hi, Johny Smith\" on my account page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb0bde4e767df15b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546489297922,
+        "stop" : 1546489297922,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b5f2548c019cf31",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546489086345,
+        "stop" : 1546489086345,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f64bfe1f2ec14b3e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546488607323,
+        "stop" : 1546488607323,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a813ebd793bdeb35",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546488174402,
+        "stop" : 1546488174402,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31de2dcc37ecc13f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546488066482,
+        "stop" : 1546488066482,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12e43f83b5787998",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546448061368,
+        "stop" : 1546448061369,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "198ed874bf3c5fe1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1546447801354,
+        "stop" : 1546447801354,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "545d0c6b48326010.json",
+  "parameterValues" : [ "chrome" ]
+}

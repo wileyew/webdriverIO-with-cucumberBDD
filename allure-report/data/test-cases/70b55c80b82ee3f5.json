@@ -1,0 +1,174 @@
+{
+  "uid" : "70b55c80b82ee3f5",
+  "name" : "I am on the search page",
+  "fullName" : "Performing a Yahoo Search Performing a search operation with passing test data as data table.I am on the search page",
+  "historyId" : "ae47cbed819c776c219fc126fa8813ad",
+  "time" : {
+    "start" : 1546489767655,
+    "stop" : 1546489769601,
+    "duration" : 1946
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ad37743e2b8e15e32f4021ed8206daa2/url",
+      "time" : {
+        "start" : 1546489767655,
+        "stop" : 1546489768586,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a0e57197b0b8978",
+        "name" : "Request",
+        "source" : "7a0e57197b0b8978.json",
+        "type" : "application/json",
+        "size" : 42
+      }, {
+        "uid" : "9bd7644603570096",
+        "name" : "Response",
+        "source" : "9bd7644603570096.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ad37743e2b8e15e32f4021ed8206daa2/title",
+      "time" : {
+        "start" : 1546489769592,
+        "stop" : 1546489769599,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "435d18acafb3a5a0",
+        "name" : "Response",
+        "source" : "435d18acafb3a5a0.json",
+        "type" : "application/json",
+        "size" : 114
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a Yahoo Search"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the search page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Yahoo Search Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e7262cadcad37b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489292722,
+        "stop" : 1546489294528,
+        "duration" : 1806
+      }
+    }, {
+      "uid" : "77c1d6bd9fb153b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489081149,
+        "stop" : 1546489083255,
+        "duration" : 2106
+      }
+    }, {
+      "uid" : "110115ea000ebd67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488601751,
+        "stop" : 1546488603442,
+        "duration" : 1691
+      }
+    }, {
+      "uid" : "6c2f45ebe2788e66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488168782,
+        "stop" : 1546488170210,
+        "duration" : 1428
+      }
+    }, {
+      "uid" : "4e227e637d2aec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488059587,
+        "stop" : 1546488061053,
+        "duration" : 1466
+      }
+    }, {
+      "uid" : "c2bd0fb7e2b58ec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546448055834,
+        "stop" : 1546448057125,
+        "duration" : 1291
+      }
+    }, {
+      "uid" : "9392611e7409554a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546447796761,
+        "stop" : 1546447798480,
+        "duration" : 1719
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70b55c80b82ee3f5.json",
+  "parameterValues" : [ "chrome" ]
+}

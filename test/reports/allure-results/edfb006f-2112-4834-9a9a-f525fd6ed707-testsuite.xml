@@ -1,0 +1,177 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546447796761' stop='1546447800724'>
+    <name>Performing a Yahoo Search Performing a search operation with passing test data as data table</name>
+    <title>Performing a Yahoo Search Performing a search operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1546447796761' status='passed' stop='1546447798480'>
+            <name>I am on the search page</name>
+            <title>I am on the search page</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/evanwiley/Development/webdriverIO-with-cucumberBDD/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546447796762' status='passed' stop='1546447797468'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/url</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2983f7f3-a25a-4bdc-bb51-5e8e2a2d211e-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='713758d7-9d21-41af-9683-a4f8785952ae-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798473' status='passed' stop='1546447798479'>
+                    <name>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/title</name>
+                    <title>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/title</title>
+                    <attachments>
+                        <attachment title='Response' source='f0a247fb-0aa4-44f7-9305-ce1ff742626a-attachment.json' type='application/json' size='114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1546447798481' status='passed' stop='1546447798657'>
+            <name>I enter "Selenium Webdriver" into the search box</name>
+            <title>I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/evanwiley/Development/webdriverIO-with-cucumberBDD/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546447798482' status='passed' stop='1546447798492'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='195d2a8b-a174-4f9c-9a44-c7ef0f9265d9-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='5705eefa-c85c-41d7-abde-0d24f32736e5-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798494' status='passed' stop='1546447798519'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/clear</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='71d3f03d-fb71-44f1-afb0-f31306d840e7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798521' status='passed' stop='1546447798530'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d04fb8b4-85e3-4a8f-8e7a-7ea12ef4060d-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='2ad9f50f-5da1-409d-a16a-aef660688ddd-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798533' status='passed' stop='1546447798548'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/clear</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='faaa1f77-0f39-48d5-8033-93351b431951-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798549' status='passed' stop='1546447798630'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/value</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='ff3e61ca-5385-4129-81c6-d682598fcfc9-attachment.json' type='application/json' size='291'/>
+                        <attachment title='Response' source='405ffbaa-d19c-4c5d-9777-6e189ade5bad-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798633' status='passed' stop='1546447798645'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57103bdc-c3bd-4161-97f2-53176a98b0f1-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='4e5d0cc4-8899-4cbd-b877-6e090ae3d1aa-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798648' status='passed' stop='1546447798655'>
+                    <name>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/property/value</name>
+                    <title>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element/0.9489394994095643-1/property/value</title>
+                    <attachments>
+                        <attachment title='Response' source='e9885b3f-20d0-4463-85bf-ca5b0d3974a9-attachment.json' type='application/json' size='107'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1546447798658' status='broken' stop='1546447800724'>
+            <name>I click the search button</name>
+            <title>I click the search button</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/evanwiley/Development/webdriverIO-with-cucumberBDD/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546447798661' status='passed' stop='1546447798673'>
+                    <name>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</name>
+                    <title>POST /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ba3bbaf-694d-456d-af41-8c463d1fc665-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='3003cf65-6f18-49ea-b891-c86d7c414f85-attachment.json' type='application/json' size='621'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546447798675' status='broken' stop='1546447800724'>
+                    <name>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/screenshot</name>
+                    <title>GET /wd/hub/session/079319a2a3f636c3b471ac92dd8338c9/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='322b94cb-f9c8-4548-9e77-272069b94584-attachment.png' type='image/png' size='3804854'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//div[@class="mag-glass"]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//div[@class="mag-glass"]").
+                    at click() - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546447800724' status='pending' stop='1546447800724'>
+            <name>I should see a list of search results</name>
+            <title>I should see a list of search results</title>
+            <labels>
+                <label name='feature' value='Performing a Yahoo Search'/>
+                <label name='story' value='Performing a search operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/evanwiley/Development/webdriverIO-with-cucumberBDD/test/features/yahoo-search.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

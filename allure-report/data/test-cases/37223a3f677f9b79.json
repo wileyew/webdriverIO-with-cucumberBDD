@@ -1,0 +1,153 @@
+{
+  "uid" : "37223a3f677f9b79",
+  "name" : "I am on the phptravels page",
+  "fullName" : "Performing a login Performing login operation with passing test data as data table.I am on the phptravels page",
+  "historyId" : "db77a97b32abf83bd8d1653264bb2b23",
+  "time" : {
+    "start" : 1546489763725,
+    "stop" : 1546489767203,
+    "duration" : 3478
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/37f983bb8dbbe1ac4c529c5d8af2bc6e/url",
+      "time" : {
+        "start" : 1546489763732,
+        "stop" : 1546489766188,
+        "duration" : 2456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e6c2c08998328a0",
+        "name" : "Request",
+        "source" : "3e6c2c08998328a0.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "bded0aacbcde2dc8",
+        "name" : "Response",
+        "source" : "bded0aacbcde2dc8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Performing a login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing login operation with passing test data as data table"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the phptravels page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login Performing login operation with passing test data as data table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fe3e5de1c08913f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489288939,
+        "stop" : 1546489292494,
+        "duration" : 3555
+      }
+    }, {
+      "uid" : "f9bdef67f81e66d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546489077284,
+        "stop" : 1546489080939,
+        "duration" : 3655
+      }
+    }, {
+      "uid" : "9bb319f40aec781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488598535,
+        "stop" : 1546488601942,
+        "duration" : 3407
+      }
+    }, {
+      "uid" : "d05f9c444bed164f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488165482,
+        "stop" : 1546488169003,
+        "duration" : 3521
+      }
+    }, {
+      "uid" : "ed487d37a87fd680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546488055656,
+        "stop" : 1546488061088,
+        "duration" : 5432
+      }
+    }, {
+      "uid" : "1f56d7a9e8b4aede",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546448052158,
+        "stop" : 1546448055979,
+        "duration" : 3821
+      }
+    }, {
+      "uid" : "1f63d006bdb6eed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546447791320,
+        "stop" : 1546447795524,
+        "duration" : 4204
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37223a3f677f9b79.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -10,7 +10,7 @@ class LoginPage extends Page {
     get passwordInput()   { return browser.element('//*[@name="password"]'); }
     get rememberMe ()     { return browser.element('//span[contains(., "Remember Me")]'); }
     get loginButton()     { return browser.element('//button[contains(., "Login")]'); }
-    get footerImage()     { return browser.element('//*[@class="foot-brand center-block img-responsive"]'); }
+    get footerImage()     { return browser.element('img[alt="Login"]'); }
 
     /**
      * define or overwrite page methods
